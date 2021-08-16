@@ -1,0 +1,241 @@
+*{
+  padding: 0;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Spartan', sans-serif;
+  /* font-size: 15px; */
+}
+body {
+  background-color: hsl(300, 24%, 96%);
+  width: 100%;
+  min-height: 100vh;
+  text-align: center;
+
+}
+.container {
+  background-color: hsl(0, 0%, 100%);
+  background-image: url('images/bg-pattern-top-mobile.svg'), url('images/bg-pattern-bottom-mobile.svg');
+  background-repeat: no-repeat;
+  background-position: top left, right bottom;
+  height: 1530px;
+  width: 375px;
+}
+.title {
+  color: hsl(300, 43%, 22%);
+  font-size: 2em;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-top: 80px;
+  width: 300px;
+}
+
+.subtitle {
+  color: hsl(303, 10%, 53%);
+  font-weight: 500;
+  text-align: center;
+  width: 340px;
+  margin-bottom: 20px;
+}
+
+.web-ratings {
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 10px;
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  width: 340px;
+}
+
+.stars {
+  display: inline-block;
+  width: 25px;
+  padding-bottom: 10px;
+}
+
+.profile-pics {
+  border-radius: 50px;
+  width: 50px;
+  float: left;
+  margin-right: 25px;
+}
+.topmargin {
+  margin-top: 50px;
+}
+.user-reviews {
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 10px;
+  width: 340px;
+}
+
+.user-names {
+  color: hsl(300, 24%, 96%);
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 5px;
+  text-align: left;
+}
+.user-status {
+  color: hsl(333, 80%, 67%);
+  padding-top: 5px;
+  margin-top: 0;
+  text-align: left;
+}
+
+.user-feedback1 {
+  clear: left;
+  color: hsl(300, 24%, 96%);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.7;
+  margin-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: left;
+  width: 255px;
+
+}
+
+.user-feedback2 {
+  clear: left;
+  color: hsl(300, 24%, 96%);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.7;
+  margin-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: left;
+  width: 250px;
+
+}
+.user-feedback3 {
+  clear: left;
+  color: hsl(300, 24%, 96%);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.7;
+  margin-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: left;
+  width: 250px;
+
+}
+
+.float {
+  padding-top: 30px;
+  width: 265px;
+}
+
+
+@media only screen and (min-width: 768px) {
+  *{
+    padding: 0;
+    margin: 0;
+    font-family: 'Spartan', sans-serif;
+  }
+  body {
+    width: 1600px;
+    min-height: 100vh
+    background-color: hsl(300, 24%, 96%);
+  }
+  .container {
+    height: 800px;
+    position: relative;
+    width: 1440px;
+    background-color: hsl(0, 0%, 100%);
+    background-image: url('images/bg-pattern-top-desktop.svg'), url('images/bg-pattern-bottom-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: top left, right bottom;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .title {
+    text-align: left;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    position: absolute;
+    top: 150px;
+    left: 180px;
+
+  }
+  .subtitle {
+    font-size: 15px;
+    text-align: left;
+    margin-bottom: 0px;
+    position: absolute;
+    top: 275px;
+    left: 180px;
+    width: 460px;
+  }
+  .wr1 {
+    position: absolute;
+    top: 150px;
+    right: 300px;
+    width: 450px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 50px;
+    margin-bottom: 0px;
+  }
+  .wr2 {
+    position: absolute;
+    top: 220px;
+    right: 220px;
+    width: 450px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 50px;
+    margin-bottom: 0px;
+  }
+  .wr3 {
+    position: absolute;
+    top: 300px;
+    right: 180px;
+    width: 450px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 50px;
+    margin-bottom: 0px;
+  }
+  .ur1 {
+    height: 240px;
+    position: absolute;
+    top: 380px;
+    left: 180px;
+  }
+
+  .ur2 {
+    position: absolute;
+    top: 450px;
+    left: 550px;
+  }
+  .ur3 {
+    position: absolute;
+    top: 470px;
+    right: 180px;
+  }
+
+  .stars {
+    display: inline-block;
+    width: 25px;
+    padding-bottom: 0px;
+  }
+  .startext {
+    display: inline-block;
+    padding-left: 25px;
+  }
+  .float {
+    padding-left: 40px;
+  }
+  .user-feedback1, .user-feedback2, .user-feedback3 {
+    padding-left: 40px;
+    width: 270px;
+  }
+}
